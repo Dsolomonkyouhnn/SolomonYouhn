@@ -1,0 +1,132 @@
+/* Below are the Media queries */
+/* This is for Samsung Galaxy Note 20 Android 11 */
+@media (min-width: 412px) {
+    #leftHomeSidebar {
+        display: none;
+    }
+
+    #homeContent {
+        display: none;
+    }
+
+    #homeHeroSec {
+        display: none;
+    }
+
+    #homeHighLihgt {
+        display: none;
+    }
+
+
+
+
+   
+}
+
+
+@media (min-width: 375px) {
+    #leftHomeSidebar {
+        display: none;
+    }
+
+    #homeContent {
+        display: none;
+    }
+
+    #homeHeroSec {
+        display: none;
+    }
+
+    #homeHighLihgt {
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+ body {
+     width: 412px;
+     height: 173vh;
+ }
+
+
+ #rightSidebar {
+     width: 200px;
+     margin-left: -330px;
+     background-color: transparent;
+ }
+
+ .RSBpic {
+     width: 400px;
+     margin-left: 13px;
+     height: fit-content;
+ }
+
+ .RSBpic img {
+     width: 500px;
+     height: auto;
+ }
+
+ .briefIntro {
+     margin-right: -200px;
+ }
+
+ .nav {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     min-height: fit-content;
+     align-content: center;
+     height: 150px;
+ }
+
+ .navUl li {
+     margin-top: -60px;
+     margin-bottom: 30px;
+
+ }
+
+ .logo {
+     margin: 0;
+     text-align: center;
+ }
+
+ .logo a h1 {
+     margin-top: 20px;
+     margin-left: -100px;
+     text-align: center;
+ }
+
+ .footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .footerContainer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-left: -10px;
+ }
+
+ .social-icons {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ .footernavUl {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ .footernavUl li {
+     margin: 10px;
+ }
